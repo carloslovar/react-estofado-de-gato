@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/carloslovar/react-estofado-de-gato.git/static/css/main.6a4d1ee8.css",
+    "main.js": "/carloslovar/react-estofado-de-gato.git/static/js/main.52a638fb.js",
+    "static/js/787.c76b96bf.chunk.js": "/carloslovar/react-estofado-de-gato.git/static/js/787.c76b96bf.chunk.js",
+    "index.html": "/carloslovar/react-estofado-de-gato.git/index.html",
+    "main.6a4d1ee8.css.map": "/carloslovar/react-estofado-de-gato.git/static/css/main.6a4d1ee8.css.map",
+    "main.52a638fb.js.map": "/carloslovar/react-estofado-de-gato.git/static/js/main.52a638fb.js.map",
+    "787.c76b96bf.chunk.js.map": "/carloslovar/react-estofado-de-gato.git/static/js/787.c76b96bf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6a4d1ee8.css",
+    "static/js/main.52a638fb.js"
+  ]
+}
