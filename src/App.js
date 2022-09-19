@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Header from './components/sections/Header';
+import Footer from './components/sections/Footer';
+import TodoApp from "./components/Todo/todoApp";
+
 
 function App() {
+  const company = {
+    name: 'Haz tu pedido de Estofado de Gato',
+    slogan: ' 🙀 😿 ¡Los mejores estofados de gato! Porque los amamos, los comemos 😿🙀'
+  };
+
+  const credits = {
+    year: new Date().getFullYear(),
+    author: 'Estofado de Gato'
+  };
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header company={company} />
+      <main className="overflow-hidden">
+        <TodoApp />
+      </main>
+      <Footer credits={credits} />
+    </>
   );
 }
 
